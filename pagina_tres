@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vasili Kandinsky — Arte y Alma</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="header-ornament">✦ ✦ ✦</div>
+    <h1>Vasily Kandinsky</h1>
+    <p class="subtitle">El pintor que convirtió el color en música</p>
+  </header>
+
+  <main>
+
+    <!-- DESCRIPCIÓN -->
+    <section class="intro">
+      <h2>Vida y Legado</h2>
+      <p>
+        Vasily Vasilyevich Kandinsky (1866–1944) fue un pintor y teórico del arte ruso-alemán,
+        ampliamente reconocido como uno de los pioneros del arte abstracto. A lo largo de su
+        extensa carrera, desarrolló un lenguaje visual basado en la relación entre el color,
+        la forma y la emoción, alejándose por completo de la representación figurativa.
+      </p>
+      <p>
+        Kandinsky creía profundamente que la pintura podía generar experiencias espirituales
+        similares a las de la música. Su obra influyó de manera decisiva en el desarrollo del
+        arte moderno del siglo XX, y su pensamiento teórico, plasmado en textos como
+        <em>De lo espiritual en el arte</em> (1911), sigue siendo una referencia fundamental
+        en la historia del arte.
+      </p>
+      <p>
+        Fue cofundador del grupo expresionista <em>Der Blaue Reiter</em> (El Jinete Azul)
+        y docente en la célebre escuela Bauhaus. Como él mismo escribió:
+        <em>"El color es el teclado, los ojos son los martillos, el alma es el piano con sus
+        múltiples cuerdas."</em>
+      </p>
+
+      <!-- DATO CURIOSO -->
+      <div class="contenedor">
+        <div class="caja">
+          <p class="subtitle">¿Sabías qué?</p>
+          <p>Kandinsky comenzó a estudiar pintura de manera formal recién a los 30 años, luego de abandonar una prometedora carrera como profesor de derecho en Moscú. Se dice que la visión de un cuadro de Monet y una función de la ópera <em>Lohengrin</em> de Wagner fueron los detonantes de su vocación artística.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OBRA DESTACADA -->
+    <section class="obra">
+      <h2>Obra destacada: Composición VIII</h2>
+      <p>
+        Pintada en 1923 durante su etapa en la Bauhaus, <em>Composición VIII</em> es una de las
+        obras más representativas de la madurez artística de Kandinsky. En ella, el artista
+        despliega un riguroso vocabulario de formas geométricas —círculos, triángulos, líneas
+        curvas y rectas— organizadas en una dinámica tensión visual que evoca ritmo y movimiento.
+      </p>
+
+      <figure class="painting-container">
+        <img
+          src="https://cms.guggenheim-bilbao.eus/uploads/2020/09/composition-8.jpg"
+          alt="Composición VIII — Vasily Kandinsky, 1923"
+        />
+        <figcaption>
+          <em>Composición VIII</em> — Vasily Kandinsky, 1923.
+          Óleo sobre lienzo, 140 × 201 cm. Museo Guggenheim, Nueva York.
+        </figcaption>
+      </figure>
+
+      <p>
+        En esta obra, Kandinsky alcanza una síntesis plena entre forma y emoción. El gran círculo
+        negro en la esquina superior izquierda ancla la composición, mientras líneas diagonales
+        y arcos generan una sensación de expansión y energía contenida. Cada forma tiene un
+        valor emocional preciso: el círculo representa lo cósmico y eterno, el triángulo
+        la tensión y el conflicto, la línea recta la frialdad racional. El resultado es una
+        obra que se experimenta tanto con los ojos como con el interior.
+      </p>
+    </section>
+
+    <!-- BOTÓN DE REGRESO -->
+    <div class="back-container">
+      <a href="index.html" class="btn-link">← Volver al inicio</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>✦ "El color es el teclado, los ojos son los martillos, el alma es el piano." — Vasily Kandinsky ✦</p>
+  </footer>
+
+</body>
+</html>
