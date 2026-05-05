@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vincent Van Gogh — Arte y Alma</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="header-ornament">✦ ✦ ✦</div>
+    <h1>Vincent Van Gogh</h1>
+    <p class="subtitle">El pintor que convirtió su tormento en luz</p>
+  </header>
+
+  <main>
+
+    <!-- DESCRIPCIÓN -->
+    <section class="intro">
+      <h2>Vida y Legado</h2>
+      <p>
+        Vincent Willem Van Gogh (1853–1890) fue un pintor neerlandés considerado uno de los artistas
+        más influyentes de la historia del arte occidental. A pesar de que su carrera artística duró
+        apenas una década, produjo más de 2.100 obras, incluyendo alrededor de 860 pinturas al óleo.
+      </p>
+      <p>
+        Van Gogh no recibió reconocimiento en vida: vendió apenas un cuadro antes de su muerte.
+        Sin embargo, su estilo expresivo y emocional, caracterizado por pinceladas vigorosas,
+        colores vibrantes y una profunda carga sentimental, sentó las bases del expresionismo moderno
+        e influyó de forma decisiva en el arte del siglo XX.
+      </p>
+      <p>
+        Su vida estuvo marcada por la lucha contra la enfermedad mental, la soledad y la pobreza.
+        Aun así, encontró en la pintura su razón de vivir. Como él mismo escribió a su hermano Theo:
+        <em>"No hay nada más genuinamente artístico que amar a las personas."</em>
+      </p>
+
+   <!-- DATO CURIOSO -->
+    <div class="contenedor">
+      <div class="caja">
+        <p class="subtitle">¿Sabías qué?</p>
+        <p>Van Gogh solo vendió una sola pintura durante toda su vida: <em>La viña roja</em> (1888), adquirida por la artista Anna Boch por 400 francos belgas. Hoy, sus obras se cotizan entre las más caras del mundo. En 1990, <em>Retrato del Dr. Gachet</em> fue subastado por 82,5 millones de dólares.</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- OBRA DESTACADA -->
+    <section class="obra">
+      <h2>Obra destacada: La Noche Estrellada</h2>
+      <p>
+        Pintada en junio de 1889 mientras Van Gogh se encontraba internado voluntariamente en el
+        asilo de Saint-Paul-de-Mausole en Saint-Rémy-de-Provence, <em>La Noche Estrellada</em>
+        es sin duda su obra más reconocida a nivel mundial. Representa la vista desde la ventana
+        de su habitación antes del amanecer, con el pueblo imaginado añadido debajo.
+      </p>
+
+      <figure class="painting-container">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+          alt="La Noche Estrellada — Vincent Van Gogh, 1889"
+        />
+        <figcaption>
+          <em>La Noche Estrellada</em> — Vincent Van Gogh, 1889.
+          Óleo sobre lienzo, 73,7 × 92,1 cm. Museum of Modern Art (MoMA), Nueva York.
+        </figcaption>
+      </figure>
+
+      <p>
+        El cielo nocturno ondula con remolinos de energía, las estrellas estallan como soles
+        y una luna brillante ilumina el pueblo dormido. El ciprés en primer plano —símbolo
+        tradicional de la muerte en la cultura mediterránea— conecta la tierra con el cielo
+        en un abrazo vertical. La obra transmite una tensión entre caos y belleza que refleja
+        el estado interior del artista con una honestidad conmovedora.
+      </p>
+    </section>
+
+    <!-- BOTÓN DE REGRESO -->
+      <a href="index.html" target="_blank" rel="noopener noreferrer" class="btn-link">
+        ← Volver al inicio
+      </a>
+
+      <a href="pagina_tres.html" target="_blank" rel="noopener noreferrer" class="btn-link">
+        Descubrí a Vasili Kandinski →
+      </a>
+  </main>
+
+  <footer>
+    <p>✦ "Sueño con pintar y luego pinto mis sueños." — Vincent Van Gogh ✦</p>
+  </footer>
+
+</body>
+</html>
