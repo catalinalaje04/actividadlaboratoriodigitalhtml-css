@@ -1,0 +1,199 @@
+/* ============================
+   VARIABLES Y RESET
+   ============================ */
+:root {
+  --bg:        #f5efe0;
+  --h1:        #2d4c39;
+  --accent:    #0c6038;
+  --text:      #0c6038;
+  --cream:     #0c6038;
+  --gold:      #c9a84c;
+  --card-bg:   rgba(255, 255, 255, 0.06);
+  --border:    rgba(201, 168, 76, 0.3);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================
+   BODY & FONDO
+   ============================ */
+body {
+  background-color: var(--bg);
+  font-family: 'Noto sans', sans-serif;
+  font-weight: 600;
+  color: var(--cream);
+  line-height: 1.8;
+  font-style: normal;
+}
+
+/* ============================
+   HEADER
+   ============================ */
+header {
+  text-align: center;
+  padding: 80px 24px 60px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+.header-ornament {
+  color: var(--gold);
+  font-size: 1rem;
+  letter-spacing: 12px;
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: 'Noto serif', serif;
+  color: var(--cream);
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.5;
+  --h1-color: var(--h1);
+  margin-bottom: 24;
+}
+
+.subtitle {
+  font-family: 'Noto serif', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: var(--gold);
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
+
+/* ============================
+   MAIN & SECCIONES
+   ============================ */
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+section {
+  margin-top: 72px;
+}
+
+h2 {
+  font-family: 'Noto serif', serif;
+  color: var(--accent);
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+p {
+  color: var(--cream);
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  --p-color: var(--text);
+}
+
+/* ============================
+   IMAGEN / FIGURA
+   ============================ */
+.painting-container {
+  margin: 36px 0;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  padding: 16px 16px 20px;
+  border-radius: 4px;
+}
+
+.painting-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}
+
+figcaption {
+  font-size: 0.88rem;
+  color: var(--gold);
+  margin-top: 14px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  opacity: 0.85;
+}
+
+/* ============================
+   ENLACE / BOTÓN
+   ============================ */
+.btn-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 14px 36px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  text-decoration: none;
+  font-family: 'Noto serif', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border-radius: 2px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-link:hover {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+/* ============================
+   DATO CURIOSO
+   ============================ */
+.contenedor {
+  max-width: 860px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+.caja {
+  background-color: #0c6038;
+  padding: 32px;
+  border-radius: 4px;
+}
+
+.caja p {
+  color: #f5efe0;
+  margin-bottom: 0;
+}
+
+.caja .subtitle {
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+/* ============================
+   BOTÓN VOLVER
+   ============================ */
+.back-container {
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* ============================
+   FOOTER
+   ============================ */
+footer {
+  text-align: center;
+  padding: 40px 24px;
+  border-top: 1px solid var(--border);
+  color: var(--gold);
+  font-style: italic;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
